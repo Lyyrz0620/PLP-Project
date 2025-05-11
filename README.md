@@ -10,16 +10,16 @@ This project presents a modular NLP system for analyzing and interacting with us
 
 PLP PROJECT/
 ├── Data/
-│   └── Data\_cleaning.ipynb              # Preprocessing of raw Steam reviews
+│   └── Data_cleaning.ipynb               # Preprocessing of raw Steam reviews
 ├── QA module/
 │   ├── qa_model.py                       # QA logic module for use in front-end (UI) interaction
 │   └── QA.ipynb                          # QA module pipeline and demonstration
 ├── SA Module/
-│   └── sentiment model finetuned.ipynb   # Fine-tuning of sentiment classification model
+│   └── sentiment_model_finetuned.ipynb   # Fine-tuning of sentiment classification model
 ├── TM Module/
-│   └── Auto Topic Modeling.ipynb         # BERTopic-based topic modeling implementation
+│   └── Auto_Topic_Modeling.ipynb         # BERTopic-based topic modeling implementation
 ├── UI/
-│   └── Web\_final.ipynb                  # Gradio-based user interface
+│   └── Web_final.ipynb                   # Gradio-based user interface
 ├── README.md                             # Project documentation
 
 ````
