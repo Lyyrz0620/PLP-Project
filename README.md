@@ -1,4 +1,4 @@
-# Steam Reviews Insight System
+# Steam Reviews Analysis System
 
 This project presents a modular NLP system for analyzing and interacting with user reviews from the [Steam Reviews Dataset](https://www.kaggle.com/datasets/andrewmvd/steam-reviews). The system includes sentiment classification, topic modeling, and a question-answering (QA) module, all accessible through an interactive UI.
 
@@ -41,7 +41,7 @@ PLP PROJECT/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/steam-reviews-nlp.git
+git clone https://github.com/Lyyrz0620/PLP-Project.git
 cd steam-reviews-nlp
 ````
 
@@ -55,6 +55,7 @@ This project is designed to run in **Google Colab**. All required packages can b
 !pip install sentence-transformers
 !pip install faiss-cpu
 !pip install bertopic
+````
 
 ### 3. Prepare Dataset
 
@@ -70,9 +71,7 @@ Each module is standalone:
 
 ### 5. Run the Front-End Interface
 
-To launch the user interface, simply open and run all cells in the notebook:
-
-UI/Web_final.ipynb
+To launch the user interface, simply open and run all cells in the notebook: UI/Web_final.ipynb
 
 This notebook contains the full interactive front-end implementation. It loads the pre-trained models and allows users to perform sentiment analysis, topic exploration, and query-based recommendations in one place.
 
